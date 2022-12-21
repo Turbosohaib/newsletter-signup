@@ -40,7 +40,7 @@ app.post("/", function (req, res) {
 
     const options = {
         method: "POST",
-        process.env()
+        process.env
     }
 
     const request = https.request(url, options, function (response) {
