@@ -40,7 +40,7 @@ app.post("/", function (req, res) {
 
     const options = {
         method: "POST",
-        auth: "Sohaib1:mailchimpAPI"
+        auth: process.env
     }
 
     const request = https.request(url, options, function (response) {
